@@ -3,7 +3,7 @@ const { exec } = require('child_process');
 const path = require('path');
 
 const app = express();
-const port = 5000;
+const port = 5050;
 
 // 設置靜態文件夾
 app.use(express.static(path.join(__dirname, 'public')));

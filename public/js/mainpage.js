@@ -93,7 +93,7 @@ const initApp = () => {
                 console.log('File available at', downloadURL);
                 currentImageRef = storageRef;
 
-                fetch(` https://b17f-122-116-74-101.ngrok-free.app/check-in?userId=${userId}&fileName=photo.jpg`)
+                fetch(`https://ea77-36-227-136-57.ngrok-free.app/check-in?userId=${userId}&fileName=photo.jpg`)
                   .then(response => response.text())
                   .then(data => {
                     console.log('Check-in script output:', data);
