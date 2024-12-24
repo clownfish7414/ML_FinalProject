@@ -16,7 +16,7 @@ window.onload = () => {
       console.log('User ID:', userId);
 
       // 執行 facetelling.py 並根據返回值決定跳轉到 Success.html 還是 Failed.html
-      fetch(`https://ea77-36-227-136-57.ngrok-free.app/facetelling?userId=${userId}`)
+      fetch(`https://713e-122-116-74-101.ngrok-free.app/facetelling?userId=${userId}`)
         .then(response => response.json())
         .then(data => {
           console.log('Facetelling script output:', data.success);

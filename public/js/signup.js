@@ -94,7 +94,7 @@ const initApp = () => {
 
   function generatePY(userId, fileName) {
     document.getElementById('output').innerText = 'Start training...';
-    fetch(`https://ea77-36-227-136-57.ngrok-free.app/run-python?userId=${userId}&fileName=${fileName}`)
+    fetch(`https://713e-122-116-74-101.ngrok-free.app/run-python?userId=${userId}&fileName=${fileName}`)
       .then(response => response.text())
       .then(data => {
         document.getElementById('output').innerText = data;

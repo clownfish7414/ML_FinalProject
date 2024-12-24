@@ -7,7 +7,7 @@ import shutil
 
 
 # 初始化 Firebase Admin SDK
-cred = credentials.Certificate("facetelling-c2271-firebase-adminsdk-i9hh6-8ac72972a2.json")
+cred = credentials.Certificate("facetelling-c2271-firebase-adminsdk-i9hh6-1c401148e1.json")
 firebase_admin.initialize_app(cred, {
     'storageBucket': 'facetelling-c2271.firebasestorage.app'
 })
