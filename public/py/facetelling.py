@@ -25,7 +25,7 @@ def download_model(bucket, source_blob_name, destination_file_name):
 
 def facetelling(user_id):
     # 初始化 Firebase Admin SDK
-    cred = credentials.Certificate("facetelling-c2271-firebase-adminsdk-i9hh6-1c401148e1.json")
+    cred = credentials.Certificate("facetelling-c2271-firebase-adminsdk-i9hh6-111f1317e1.json")
     firebase_admin.initialize_app(cred, {
         'storageBucket': 'facetelling-c2271.firebasestorage.app'
     })
