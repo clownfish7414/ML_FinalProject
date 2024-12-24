@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Success</title>
+    <style>
+      /* 整體佈局 */
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: linear-gradient(135deg, #ff7e5f, #feb47b);
+        font-family: Arial, "Segoe UI Emoji", sans-serif;
+        overflow: hidden;
+      }
+
+      /* 星星背景動畫 */
+      .stars {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 0; /* 放在底層 */
+      }
+
+      .stars span {
+        position: absolute;
+        display: block;
+        width: 5px;
+        height: 5px;
+        background: white;
+        border-radius: 50%;
+        animation: twinkling 3s infinite;
+      }
+
+      /* 成功提示容器 */
+      .success-container {
+        position: relative;
+        z-index: 10; /* 確保在星星背景之上 */
+        text-align: center;
+        animation: fadeIn 1.5s ease-in-out;
+      }
+
+      /* 提示框樣式 */
+      .alert {
+        font-size: 2rem;
+        padding: 20px;
+        border-radius: 50px;
+        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 255, 127, 0.9);
+        color: black;
+        transform: scale(1); /* 保持顯示 */
+        opacity: 1;
+      }
+
+      @keyframes twinkling {
+        0% {
+          transform: scale(0.8);
+          opacity: 0.6;
+        }
+        50% {
+          transform: scale(1);
+          opacity: 1;
+        }
+        100% {
+          transform: scale(0.8);
+          opacity: 0.6;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="stars">
+      <span style="top: 20%; left: 10%;"></span>
+      <span style="top: 40%; left: 20%;"></span>
+      <span style="top: 70%; left: 50%;"></span>
+      <span style="top: 80%; left: 30%;"></span>
+      <span style="top: 10%; left: 80%;"></span>
+    </div>
+    <div class="success-container">
+      <div class="alert" role="alert">
+        🎉 Check In Successful! 🎉
+      </div>
+      <script src="js/Success.bundle.js"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "rules": {
+    "com_list": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    ".read": false,
+    ".write": false
+  }
+}

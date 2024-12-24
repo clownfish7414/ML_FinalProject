@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Check In Failed</title>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <style>
+      .failed-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #2c3e50;
+        color: #ecf0f1;
+      }
+      .failed-container .alert {
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+      .failed-container .sad-face {
+        font-size: 5rem;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="failed-container">
+      <div class="sad-face">😢</div>
+      <div class="alert alert-danger" role="alert">
+        Fail to check in
+      </div>
+    </div>
+
+    <script src="js/Failed.bundle.js"></script>
+  </body>
+</html>
