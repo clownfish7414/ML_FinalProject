@@ -56,7 +56,7 @@ def facetelling(user_id):
         for (x, y, w, h) in faces:
             cv2.rectangle(img, (x, y), (x + w, y + h), (0, 255, 0), 2)  # 標記人臉外框
             idnum, confidence = recognizer.predict(gray[y:y + h, x:x + w])  # 預測ID及信心指數
-            if confidence < 120:  
+            if confidence < 100:  
                 photo_tracing[ID].append(1)
             else:  # 否則顯示未知
                 photo_tracing[ID].append(0)

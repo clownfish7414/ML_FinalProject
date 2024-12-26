@@ -35,7 +35,7 @@ Regenerating the website from the code presents several challenges:
 - We use ngrok to set up a server for the website.
 
 ## Demo
-Although it may not be possible to replicate the exact same website on another computer, we provide a link to the website so you can verify the code and the functionality we described.
+Although it may not be possible to replicate the exact same website on another computer, we provide a link to the website so you can verify the code and the functionality we described. When you want to take a picture and verify or upload the video to build model, make sure your background is clean.
 
 our website : [https://713e-122-116-74-101.ngrok-free.app](https://713e-122-116-74-101.ngrok-free.app)
 

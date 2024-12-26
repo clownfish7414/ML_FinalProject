@@ -7,7 +7,7 @@ faces = []  # 儲存人臉位置大小的串列
 ids = []  # 記錄該人臉 id 的串列
 
 video_number = 1
-augmentation_count = 3  # 每張影像的增強數量
+augmentation_count = 0  # 每張影像的增強數量
 
 
 def get_face(path,userid):
